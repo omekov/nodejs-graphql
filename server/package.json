@@ -1,0 +1,24 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "prod": "node src",
+    "test": "npm test"
+  },
+  "repository": {
+    "url": "https://github.com/omekov/graphql-example.git"
+  },
+  "author": "Omekov A",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.4"
+  }
+}
